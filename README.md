@@ -13,7 +13,7 @@ You can install the requirements by running:
 pip install -r requirements.txt
 ```
 
-#### Dataset Configs
+### Dataset Configs
 
 Dataset and dataset-specific model configurations are in the `dataset/configs.py` file.
 
