@@ -50,6 +50,10 @@ For GNNShap experiments, you can use the following script:
 ./run_gnnshap_experiments.sh
 ```
 
+- _We ran experiments on a GPU with 24GB of memory. You may need to adjust `batch_size` 
+and `num_samples` parameters if you have less GPU memory._
+- _The first run might take some time: it needs to compile the Cuda code._
+
 For individual dataset experiments, an example is provided below:
 ```bash
 python run_gnnshap.py --dataset Cora --num_samples 25000 --sampler GNNShapSampler 
@@ -58,9 +62,6 @@ python run_gnnshap.py --dataset Cora --num_samples 25000 --sampler GNNShapSample
 
 The results will be saved to the `results` folder. The default result folder can be changed 
 in `dataset/configs.py`
-
-**We ran our experiments on a GPU with 24GB of memory. You may need to adjust `batch_size` 
-and `num_samples` parameters.**
 
 
 ### Evaluation
