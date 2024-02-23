@@ -79,10 +79,6 @@ We provided an example in the `CustomModelData.ipynb`  notebook under `examples`
 Please cite our work if you find it useful.
 
 ```
-@article{akkas2024gnnshap,
-  title={GNNShap: Scalable and Accurate GNN Explanations using Shapley Values},
-  author={Akkas, Selahattin and Azad, Ariful},
-  journal={arXiv preprint arXiv:2401.04829},
-  year={2024}
-}
+Selahattin Akkas and Ariful Azad. 2024. GNNShap: Scalable and Accurate GNN Explanation using Shapley Values.
+In Proceedings of the ACM Web Conference 2024 (WWW ’24), May 13–17, 2024, Singapore, Singapore.
 ```
