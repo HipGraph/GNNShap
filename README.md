@@ -6,7 +6,11 @@ Web Conference 2024.
 ### Setup
 Our implementation is based on PyTorch and PYG. Also, Our Shapley sampling strategy is implemented 
 in Cuda. Therefore, GNNShap requires a GPU with Cuda support.
-Required packages and versions are provided in the `requirements.txt` file.
+
+First install PyTorch with GPU support from [here](https://pytorch.org/get-started/locally/) and 
+make sure PyTorch is using GPU.  
+
+The rest of the required packages and versions are provided in the `requirements.txt` file.
 
 You can install the requirements by running:
 ```bash

@@ -22,8 +22,7 @@ if __name__ == '__main__':
     parser.add_argument('--sampler', type=str, default='GNNShapSampler',
                         help='Sampler to use for sampling coalitions',
                         choices=['GNNShapSampler', 'SVXSampler', 'SHAPSampler',
-                                'SHAPUniqueSampler'],
-                        help='Sampler to use for sampling coalitions.')
+                                'SHAPUniqueSampler'])
     parser.add_argument('--solver', type=str, default='WLSSolver',
                         help='Solver to use for solving SVX', choices=['WLSSolver', 'WLRSolver'])
     
