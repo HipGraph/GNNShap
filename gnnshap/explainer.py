@@ -50,7 +50,7 @@ def default_predict_fn(model: torch.nn.Module,
 
 
 class GNNShapExplainer:
-    """SHAP's kernelExplainer implementation for GNNs.
+    """GNNShap main Explainer class.
 
         Args:
             model (torch.nn.Module): a pyg model.
